@@ -3,7 +3,8 @@ kind: Component
 metadata:
   name: blitzy-iTerm2
   description: iTerm2 is a terminal emulator for Mac OS X that does amazing things.
-  tags: []
+  tags:
+    - objective-c
   annotations:
     github.com/project-slug: Blitzy-Sandbox/blitzy-iTerm2
     backstage.io/source-location: url:https://github.com/Blitzy-Sandbox/blitzy-iTerm2/tree/master/
@@ -13,3 +14,4 @@ spec:
   lifecycle: production
   owner: blitzy-sandbox
   system: blitzy-sandbox-projects
+
