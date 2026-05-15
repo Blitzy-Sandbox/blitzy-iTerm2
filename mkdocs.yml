@@ -1,0 +1,17 @@
+site_name: iTerm2
+site_description: macOS Terminal Replacement
+
+plugins:
+  - techdocs-core
+
+nav:
+  - Home: index.md
+  - Names and Titles: names-and-titles.md
+  - Release Notes 3.7: notes-3.7.txt
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
